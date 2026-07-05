@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "Amina Happiness Meter",
+    "slug": "amina-happiness-meter",
+    "scheme": "amina",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "web": { "bundler": "metro", "output": "single" },
+    "plugins": ["expo-router", "expo-font"],
+    "experiments": { "typedRoutes": true }
+  }
+}
