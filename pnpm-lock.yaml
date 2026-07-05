@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@expo-google-fonts/bodoni-moda':
+        specifier: ^0.4.0
+        version: 0.4.2
       '@expo-google-fonts/cormorant-garamond':
         specifier: ^0.4.0
         version: 0.4.1
@@ -684,6 +687,9 @@ packages:
   '@eslint/plugin-kit@0.4.1':
     resolution: {integrity: sha512-43/qtrDUokr7LJqoF2c3+RInu/t4zfrpYdoSDfYyhg52rwLV6TnOvdG4fXm7IkSB3wErkcmJS9iEhjVtOSEjjA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
+  '@expo-google-fonts/bodoni-moda@0.4.2':
+    resolution: {integrity: sha512-fnHVMSHRIU1Pzg27Iv/L5PVq/JpVJSTBHsx3hQZSOjUwsQzAd0hGMoRjT91ck/9Ui0P7d+8si0A/AeV+jzIhMg==}
 
   '@expo-google-fonts/cormorant-garamond@0.4.1':
     resolution: {integrity: sha512-e8J4Cn13K1txygamg50n3odLUsYP7Ck28XOGobMi7uDsWvFmp/jgK0qcALqJTlmi9NczSWUNdERxcLauHCBa/Q==}
@@ -5473,6 +5479,8 @@ snapshots:
     dependencies:
       '@eslint/core': 0.17.0
       levn: 0.4.1
+
+  '@expo-google-fonts/bodoni-moda@0.4.2': {}
 
   '@expo-google-fonts/cormorant-garamond@0.4.1': {}
 

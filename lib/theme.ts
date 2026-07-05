@@ -1,10 +1,10 @@
 export const colors = {
-  ink: '#3C2831', muted: '#806D74', blush: '#EFA8BA', blushLight: '#FCE8EC',
-  rose: '#D96C89', cream: '#FFF9F3', paper: '#FFFFFF', gold: '#C79858',
-  sage: '#82A78E', lavender: '#9A8EB7', peach: '#F1B38E', line: '#F0E5E1', danger: '#C86767',
+  ink: '#24101D', muted: '#755866', blush: '#FF7AAA', blushLight: '#FFE1ED',
+  rose: '#F02D7D', cream: '#FFF4F8', paper: '#FFFFFF', gold: '#D59B24',
+  sage: '#39A875', lavender: '#8B5CF6', peach: '#FF7A59', line: '#F3DCE6', danger: '#D9365E',
 };
 
 export const shadow = {
-  shadowColor: '#6D4250', shadowOffset: { width: 0, height: 8 }, shadowOpacity: 0.09,
-  shadowRadius: 20, elevation: 4,
+  shadowColor: '#8A174D', shadowOffset: { width: 0, height: 10 }, shadowOpacity: 0.13,
+  shadowRadius: 24, elevation: 5,
 };
