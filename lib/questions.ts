@@ -97,10 +97,9 @@ export function dailyQuestions(date = new Date()) {
   const day = date.toISOString().slice(0, 10);
   const random = seededNumber(day);
   const total = 5 + Math.floor(random() * 4); // 5–8 questions, stable for the whole day.
-  const includeOmar = random() < 0.28;
-  const regularCount = total - 1 - (includeOmar ? 1 : 0);
+  const regularCount = total - 2; // One mood question + one mandatory Omar question.
   const selected = shuffled(DAILY_POOL, random).slice(0, regularCount);
-  if (includeOmar) selected.splice(Math.max(1, selected.length - 1), 0, shuffled(OMAR_POOL, random)[0]);
+  selected.splice(Math.max(1, selected.length - 1), 0, shuffled(OMAR_POOL, random)[0]);
   return [MOOD_QUESTION, ...selected];
 }
 
